@@ -5,11 +5,9 @@ import sbt.Keys._
 object Settings {
   val common = Seq(
     organization := "danslapman",
-    version := "0.1",
-    scalaVersion := "2.12.8",
-    crossScalaVersions := Seq("2.11.12", "2.12.8"),
-    scalacOptions += "-Ypartial-unification",
-    addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full),
+    version := "0.2",
+    scalaVersion := "2.12.12",
+    crossScalaVersions := Seq("2.12.12", "2.13.3"),
     licenses += ("WTFPL", url("http://www.wtfpl.net")),
     bintrayOrganization := Some("danslapman"),
     bintrayReleaseOnPublish in ThisBuild := false

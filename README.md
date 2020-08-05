@@ -4,5 +4,5 @@
 ```
     resolvers += Resolver.bintrayRepo("danslapman", "maven")
 
-    libraryDependencies += "danslapman" %% "f-rig" % "0.1"
+    libraryDependencies += "danslapman" %% "f-rig" % "0.2"
 ```
